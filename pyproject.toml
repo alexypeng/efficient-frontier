@@ -1,0 +1,17 @@
+[project]
+name = "project1"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=1.26.4,<2",
+    "pandas>=2.1.4,<2.2",
+    "polars>=1.44.2",
+    "pyarrow>=25.0.1",
+    "wrds>=3.1.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]

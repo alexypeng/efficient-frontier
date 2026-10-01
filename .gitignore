@@ -1,0 +1,21 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded data and generated tables
+data/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.pgpass
+pgpass.conf
+
+# Generated plots
+03_model/*.png
